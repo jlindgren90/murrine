@@ -8,11 +8,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: murrine master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=murrine&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-03-18 00:22+0000\n"
-"PO-Revision-Date: 2011-05-21 23:11+0300\n"
-"Last-Translator: Giannis Katsampirhs <juankatsampirhs@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=murrine&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-03-20 13:42+0000\n"
+"PO-Revision-Date: 2012-06-29 10:48+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: Greek <team@gnome.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,28 +19,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../schema/murrine.xml.in.in.h:1
-msgid "Additional scrollbar features"
-msgstr "Επιπρόσθετες ιδιότητες γραμμής κύλισης"
-
-#: ../schema/murrine.xml.in.in.h:2
 msgid "Animations"
 msgstr "Κινούμενα σχέδια"
+
+#: ../schema/murrine.xml.in.in.h:2
+msgid "Enable animations on progressbars, radio and checkbuttons"
+msgstr "Ενεργοποίηση κινούμενων εφέ στις γραμμές προόδου, στα ακτινικά κουμπιά και στα πεδία ελέγχου "
 
 #: ../schema/murrine.xml.in.in.h:3
 msgid "Arrow Style"
 msgstr "Τύπος βέλους"
 
 #: ../schema/murrine.xml.in.in.h:4
-msgid "Cell Style"
-msgstr "Τύπος κελιού"
-
-#: ../schema/murrine.xml.in.in.h:5
 msgid "Colorize scrollbar"
 msgstr "Χρωματισμός γραμμής κύλισης"
 
-#: ../schema/murrine.xml.in.in.h:6
+#: ../schema/murrine.xml.in.in.h:5
 msgid "Colorize scrollbar with bg[SELECTED]"
 msgstr "Χρωματισμός γραμμής κύλισης με bg[SELECTED]"
+
+#: ../schema/murrine.xml.in.in.h:6
+msgid "Cell Style"
+msgstr "Τύπος κελιού"
 
 #: ../schema/murrine.xml.in.in.h:7
 msgid "Combobox Style"
@@ -52,49 +51,44 @@ msgid "Contrast"
 msgstr "Αντίθεση"
 
 #: ../schema/murrine.xml.in.in.h:9
-msgid ""
-"Dangerous, should be MODIFIED ONLY BY HAND in gtkrc into separated sections"
-msgstr ""
-"Κίνδυνος, η τροποποίησή του πρέπει να γίνει ΜΟΝΟ ΧΕΙΡΟΚΙΝΗΤΑ στο gtrc σε "
-"ξεχωριστά τμήματα"
+msgid "Dangerous, should be MODIFIED ONLY BY HAND in gtkrc into separated sections"
+msgstr "Κίνδυνος, η τροποποίησή του πρέπει να γίνει ΜΟΝΟ ΧΕΙΡΟΚΙΝΗΤΑ στο gtrc σε ξεχωριστά τμήματα"
 
 #: ../schema/murrine.xml.in.in.h:10
 msgid "Default Button Color"
 msgstr "Χρώμα προεπιλεγμένου κουμπιού"
 
 #: ../schema/murrine.xml.in.in.h:11
-msgid "Enable and set the Glow Shade"
-msgstr "Ενεργοποίηση και ρύθμιση της σκίασης λάμψης"
+msgid "Sets the Color of Default button 2px border"
+msgstr "Καθορίζει το χρώμα του προεπιλεγμένου κουμπιού με περίγραμμα 2px"
 
 #: ../schema/murrine.xml.in.in.h:12
-msgid "Enable animations on progressbars, radio and checkbuttons"
-msgstr ""
-"Ενεργοποίηση κινούμενων εφέ στις γραμμές προόδου, στα ακτινικά κουμπιά και "
-"στα πεδία ελέγχου "
-
-#: ../schema/murrine.xml.in.in.h:13
-msgid "Enable/Disable RGBA support"
-msgstr "Ενεργοποίηση/Απενεργοποίηση υποστήριξης RGBA"
-
-#: ../schema/murrine.xml.in.in.h:14
 msgid "Expander Style"
 msgstr "Τύπος ανάπτυξης"
 
-#: ../schema/murrine.xml.in.in.h:15
+#: ../schema/murrine.xml.in.in.h:13
 msgid "Focus Color"
 msgstr "Χρώμα εστίασης"
 
-#: ../schema/murrine.xml.in.in.h:16
+#: ../schema/murrine.xml.in.in.h:14
+msgid "Sets the Color of Focus"
+msgstr "Καθορισμός του χρώματος εστίασης"
+
+#: ../schema/murrine.xml.in.in.h:15
 msgid "Focus Style"
 msgstr "Τύπος εστίασης"
 
-#: ../schema/murrine.xml.in.in.h:17
+#: ../schema/murrine.xml.in.in.h:16
 msgid "Glaze Style"
 msgstr "Τύπος στίλβωσης"
 
-#: ../schema/murrine.xml.in.in.h:18
+#: ../schema/murrine.xml.in.in.h:17
 msgid "Glow Shade"
 msgstr "Σκίαση λάμψης"
+
+#: ../schema/murrine.xml.in.in.h:18
+msgid "Enable and set the Glow Shade"
+msgstr "Ενεργοποίηση και ρύθμιση της σκίασης λάμψης"
 
 #: ../schema/murrine.xml.in.in.h:19
 msgid "Glow Style"
@@ -109,101 +103,106 @@ msgid "Highlight Shade"
 msgstr "Σκίαση επισήμανσης"
 
 #: ../schema/murrine.xml.in.in.h:22
-msgid "Increse/Decrease the highlight shade"
+#| msgid "Increse/Decrease the highlight shade"
+msgid "Increase/Decrease the highlight shade"
 msgstr "Αύξηση/Μείωση σκίασης της επισήμανσης"
 
 #: ../schema/murrine.xml.in.in.h:23
-msgid "Increse/Decrease the lightborder shade"
-msgstr "Αύξηση/Μείωση της σκίασης φωτεινού περιγράμματος"
-
-#: ../schema/murrine.xml.in.in.h:24
-msgid "Increse/Decrease the prelight shade"
-msgstr "Αύξηση/Μείωση της σκίασης εκ των προτέρων φωτισμού"
-
-#: ../schema/murrine.xml.in.in.h:25
-msgid "Increse/Decrease the text shadow shade"
-msgstr "Αύξηση/Μείωση της σκίασης κειμένου"
-
-#: ../schema/murrine.xml.in.in.h:26
 msgid "Lightborder Shade"
 msgstr "Σκίαση φωτεινού περιγράμματος"
 
-#: ../schema/murrine.xml.in.in.h:27
+#: ../schema/murrine.xml.in.in.h:24
+#| msgid "Increse/Decrease the lightborder shade"
+msgid "Increase/Decrease the lightborder shade"
+msgstr "Αύξηση/Μείωση της σκίασης φωτεινού περιγράμματος"
+
+#: ../schema/murrine.xml.in.in.h:25
 msgid "Lightborder Style"
 msgstr "Τύπος φωτεινού περιγράμματος"
 
-#: ../schema/murrine.xml.in.in.h:28
+#: ../schema/murrine.xml.in.in.h:26
 msgid "Listview header style"
 msgstr "Τύπος επικεφαλίδας προβολής λίστας"
 
-#: ../schema/murrine.xml.in.in.h:29
+#: ../schema/murrine.xml.in.in.h:27
 msgid "Listview separators"
 msgstr "Διαχωριστικά προβολής λίστας"
 
-#: ../schema/murrine.xml.in.in.h:30
-msgid "Menu Style"
-msgstr "Τύπος μενού"
-
-#: ../schema/murrine.xml.in.in.h:31
-msgid "MenuItem Style"
-msgstr "Τύπος στοιχείου μενού"
-
-#: ../schema/murrine.xml.in.in.h:32
-msgid "Menubar Style"
-msgstr "Τύπος γραμμής μενού"
-
-#: ../schema/murrine.xml.in.in.h:33
+#: ../schema/murrine.xml.in.in.h:28
 msgid "MenubarItem Style"
 msgstr "Τύπος στοιχείου από τη γραμμή μενού"
 
-#: ../schema/murrine.xml.in.in.h:34
+#: ../schema/murrine.xml.in.in.h:29
+msgid "Menubar Style"
+msgstr "Τύπος γραμμής μενού"
+
+#: ../schema/murrine.xml.in.in.h:30
+msgid "MenuItem Style"
+msgstr "Τύπος στοιχείου μενού"
+
+#: ../schema/murrine.xml.in.in.h:31
+msgid "Menu Style"
+msgstr "Τύπος μενού"
+
+#: ../schema/murrine.xml.in.in.h:32
 msgid "Prelight Shade"
 msgstr "Σκίαση εκ των προτέρων φωτισμού (prelight)"
 
-#: ../schema/murrine.xml.in.in.h:35
+#: ../schema/murrine.xml.in.in.h:33
+#| msgid "Increse/Decrease the prelight shade"
+msgid "Increase/Decrease the prelight shade"
+msgstr "Αύξηση/Μείωση της σκίασης εκ των προτέρων φωτισμού"
+
+#: ../schema/murrine.xml.in.in.h:34
 msgid "Progressbar style"
 msgstr "Τύπος γραμμής προόδου"
 
-#: ../schema/murrine.xml.in.in.h:36
+#: ../schema/murrine.xml.in.in.h:35
 msgid "Relief style of widget"
 msgstr "Τύπος ανάγλυφου γραφικού στοιχείου"
+
+#: ../schema/murrine.xml.in.in.h:36
+msgid "Enable/Disable RGBA support"
+msgstr "Ενεργοποίηση/Απενεργοποίηση υποστήριξης RGBA"
 
 #: ../schema/murrine.xml.in.in.h:37
 msgid "Roundness"
 msgstr "Καμπυλότητα"
 
 #: ../schema/murrine.xml.in.in.h:38
+msgid "Additional scrollbar features"
+msgstr "Επιπρόσθετες ιδιότητες γραμμής κύλισης"
+
+#: ../schema/murrine.xml.in.in.h:39
 msgid "Separator style"
 msgstr "Τύπος διαχωριστικού"
 
-#: ../schema/murrine.xml.in.in.h:39
-msgid "Sets the Color of Default button 2px border"
-msgstr "Καθορίζει το χρώμα του προεπιλεγμένου κουμπιού με περίγραμμα 2px"
-
 #: ../schema/murrine.xml.in.in.h:40
-msgid "Sets the Color of Focus"
-msgstr "Καθορισμός του χρώματος εστίασης"
-
-#: ../schema/murrine.xml.in.in.h:41
 msgid "Slider style"
 msgstr "Τύπος ολίσθησης"
 
-#: ../schema/murrine.xml.in.in.h:42
+#: ../schema/murrine.xml.in.in.h:41
 msgid "Spinbutton Style"
 msgstr "Τύπος κουμπιού αυξομείωσης"
 
-#: ../schema/murrine.xml.in.in.h:43
+#: ../schema/murrine.xml.in.in.h:42
 msgid "Stepper style"
 msgstr "Τύπος βηματικού στοιχείου (stepper)"
+
+#: ../schema/murrine.xml.in.in.h:43
+msgid "Text Style"
+msgstr "Τύπος κειμένου"
 
 #: ../schema/murrine.xml.in.in.h:44
 msgid "Text Shade"
 msgstr "Σκίαση κειμένου"
 
 #: ../schema/murrine.xml.in.in.h:45
-msgid "Text Style"
-msgstr "Τύπος κειμένου"
+#| msgid "Increse/Decrease the text shadow shade"
+msgid "Increase/Decrease the text shadow shade"
+msgstr "Αύξηση/Μείωση της σκίασης κειμένου"
 
 #: ../schema/murrine.xml.in.in.h:46
 msgid "Toolbar style"
 msgstr "Τύπος εργαλειοθήκης"
+
