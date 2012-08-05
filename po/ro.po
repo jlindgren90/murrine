@@ -1,0 +1,212 @@
+# Romanian translation for murrine.
+# Copyright (C) 2010 murrine's COPYRIGHT HOLDER
+# This file is distributed under the same license as the murrine package.
+# Toma Tabacu <toma.tabacu@gmail.com>, 2010.
+# Daniel Șerbănescu <daniel@serbanescu.dk>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: murrine master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=murrin"
+"e&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-03-20 13:42+0000\n"
+"PO-Revision-Date: 2012-08-05 18:52+0200\n"
+"Last-Translator: Daniel Șerbănescu <daniel@serbanescu.dk>\n"
+"Language-Team: Gnome Romanian Translation Team\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.7.0\n"
+"X-Project-Style: gnome\n"
+
+#: ../schema/murrine.xml.in.in.h:1
+msgid "Animations"
+msgstr "Animații"
+
+#: ../schema/murrine.xml.in.in.h:2
+msgid "Enable animations on progressbars, radio and checkbuttons"
+msgstr ""
+"Activează animații în bare de progres, butoane radio și butoane de bifare"
+
+#: ../schema/murrine.xml.in.in.h:3
+msgid "Arrow Style"
+msgstr "Stilul săgeții"
+
+#: ../schema/murrine.xml.in.in.h:4
+msgid "Colorize scrollbar"
+msgstr "Colorează bara de derulare"
+
+#: ../schema/murrine.xml.in.in.h:5
+msgid "Colorize scrollbar with bg[SELECTED]"
+msgstr "Colorează bara de derulare cu bg[SELECTED]"
+
+#: ../schema/murrine.xml.in.in.h:6
+msgid "Cell Style"
+msgstr "Stilul celulei"
+
+#: ../schema/murrine.xml.in.in.h:7
+msgid "Combobox Style"
+msgstr "Stilul listei de selecție"
+
+#: ../schema/murrine.xml.in.in.h:8
+msgid "Contrast"
+msgstr "Contrast"
+
+#: ../schema/murrine.xml.in.in.h:9
+msgid ""
+"Dangerous, should be MODIFIED ONLY BY HAND in gtkrc into separated sections"
+msgstr "Avertisment ! A se modifica doar manual în gtkrc în secțiuni separate"
+
+#: ../schema/murrine.xml.in.in.h:10
+msgid "Default Button Color"
+msgstr "Culoarea implicită a butoanelor"
+
+#: ../schema/murrine.xml.in.in.h:11
+msgid "Sets the Color of Default button 2px border"
+msgstr "Stabilește culoarea implicită a bordurii de 2px a butonului"
+
+#: ../schema/murrine.xml.in.in.h:12
+msgid "Expander Style"
+msgstr "Stilul extensorului"
+
+#: ../schema/murrine.xml.in.in.h:13
+msgid "Focus Color"
+msgstr "Culoarea focalizării"
+
+#: ../schema/murrine.xml.in.in.h:14
+msgid "Sets the Color of Focus"
+msgstr "Stabilește culoarea focalizării"
+
+#: ../schema/murrine.xml.in.in.h:15
+msgid "Focus Style"
+msgstr "Stilul focalizării"
+
+#: ../schema/murrine.xml.in.in.h:16
+msgid "Glaze Style"
+msgstr "Stilul luciului"
+
+#: ../schema/murrine.xml.in.in.h:17
+msgid "Glow Shade"
+msgstr "Nuanța umbrei"
+
+#: ../schema/murrine.xml.in.in.h:18
+msgid "Enable and set the Glow Shade"
+msgstr "Activează și definește nuanța umbrei"
+
+#: ../schema/murrine.xml.in.in.h:19
+msgid "Glow Style"
+msgstr "Stilul incandescenței"
+
+#: ../schema/murrine.xml.in.in.h:20
+msgid "Handle Style"
+msgstr "Stilul mânerului"
+
+#: ../schema/murrine.xml.in.in.h:21
+msgid "Highlight Shade"
+msgstr "Umbra marcării"
+
+#: ../schema/murrine.xml.in.in.h:22
+#| msgid "Increse/Decrease the highlight shade"
+msgid "Increase/Decrease the highlight shade"
+msgstr "Crește/Descrește umbra marcării"
+
+#: ../schema/murrine.xml.in.in.h:23
+msgid "Lightborder Shade"
+msgstr "Umbra bordurii de lumină"
+
+#: ../schema/murrine.xml.in.in.h:24
+#| msgid "Increse/Decrease the lightborder shade"
+msgid "Increase/Decrease the lightborder shade"
+msgstr "Crește/Descrește umbra bordurii de lumină"
+
+#: ../schema/murrine.xml.in.in.h:25
+msgid "Lightborder Style"
+msgstr "Stilul bordurii de lumină"
+
+#: ../schema/murrine.xml.in.in.h:26
+msgid "Listview header style"
+msgstr "Stilul antetului listei de vizualizare"
+
+#: ../schema/murrine.xml.in.in.h:27
+msgid "Listview separators"
+msgstr "Separatorii listei de vizualizare"
+
+#: ../schema/murrine.xml.in.in.h:28
+msgid "MenubarItem Style"
+msgstr "Stilul elementului barei de meniu"
+
+#: ../schema/murrine.xml.in.in.h:29
+msgid "Menubar Style"
+msgstr "Stilul barei de meniu"
+
+#: ../schema/murrine.xml.in.in.h:30
+msgid "MenuItem Style"
+msgstr "Stilul elementului de meniu"
+
+#: ../schema/murrine.xml.in.in.h:31
+msgid "Menu Style"
+msgstr "Stilul meniului"
+
+#: ../schema/murrine.xml.in.in.h:32
+msgid "Prelight Shade"
+msgstr "Umbra preluminii"
+
+#: ../schema/murrine.xml.in.in.h:33
+#| msgid "Increse/Decrease the highlight shade"
+msgid "Increase/Decrease the prelight shade"
+msgstr "Crește/Descrește umbra preluminii"
+
+#: ../schema/murrine.xml.in.in.h:34
+msgid "Progressbar style"
+msgstr "Stilul barei de progres"
+
+#: ../schema/murrine.xml.in.in.h:35
+msgid "Relief style of widget"
+msgstr ""
+
+#: ../schema/murrine.xml.in.in.h:36
+msgid "Enable/Disable RGBA support"
+msgstr "Activează/Dezactivează compatibilitatea cu RGBA "
+
+#: ../schema/murrine.xml.in.in.h:37
+msgid "Roundness"
+msgstr "Rotunjire"
+
+#: ../schema/murrine.xml.in.in.h:38
+msgid "Additional scrollbar features"
+msgstr "Funcționalități suplimentare ale barei de derulare"
+
+#: ../schema/murrine.xml.in.in.h:39
+msgid "Separator style"
+msgstr "Stilul separatorului"
+
+#: ../schema/murrine.xml.in.in.h:40
+msgid "Slider style"
+msgstr "Stilul glisorului"
+
+#: ../schema/murrine.xml.in.in.h:41
+msgid "Spinbutton Style"
+msgstr "Stilul butoanelor incrementale"
+
+#: ../schema/murrine.xml.in.in.h:42
+msgid "Stepper style"
+msgstr ""
+
+#: ../schema/murrine.xml.in.in.h:43
+msgid "Text Style"
+msgstr "Stilul textului"
+
+#: ../schema/murrine.xml.in.in.h:44
+msgid "Text Shade"
+msgstr "Umbra textului"
+
+#: ../schema/murrine.xml.in.in.h:45
+#| msgid "Increse/Decrease the text shadow shade"
+msgid "Increase/Decrease the text shadow shade"
+msgstr "Crește/Descrește nuanța umbrei textului"
+
+#: ../schema/murrine.xml.in.in.h:46
+msgid "Toolbar style"
+msgstr "Stilul barei de unelte"
