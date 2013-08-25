@@ -1,0 +1,208 @@
+# Hungarian translation for murrine.
+# Copyright (C) 2013 murrine's COPYRIGHT HOLDER
+# This file is distributed under the same license as the murrine package.
+#
+# Balázs Úr <urbalazs at gmail dot com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: murrine master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=murrine&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-13 00:27+0000\n"
+"PO-Revision-Date: 2013-08-25 20:49+0200\n"
+"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
+"Language-Team: Hungarian <gnome-hu-list@gnome.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: ../schema/murrine.xml.in.in.h:1
+msgid "Animations"
+msgstr "Animációk"
+
+#: ../schema/murrine.xml.in.in.h:2
+msgid "Enable animations on progressbars, radio and checkbuttons"
+msgstr ""
+"Animációk engedélyezése folyamatsávokon, rádiógombokon és jelölőnégyzeteken"
+
+#: ../schema/murrine.xml.in.in.h:3
+msgid "Arrow Style"
+msgstr "Nyíl stílusa"
+
+#: ../schema/murrine.xml.in.in.h:4
+msgid "Colorize scrollbar"
+msgstr "Görgetősáv színezése"
+
+#: ../schema/murrine.xml.in.in.h:5
+msgid "Colorize scrollbar with bg[SELECTED]"
+msgstr "Görgetősáv színezése ezzel: bg[SELECTED]"
+
+#: ../schema/murrine.xml.in.in.h:6
+msgid "Cell Style"
+msgstr "Cella stílusa"
+
+#: ../schema/murrine.xml.in.in.h:7
+msgid "Combobox Style"
+msgstr "Legördülő menü stílusa"
+
+#: ../schema/murrine.xml.in.in.h:8
+msgid "Contrast"
+msgstr "Kontraszt"
+
+#: ../schema/murrine.xml.in.in.h:9
+msgid ""
+"Dangerous, should be MODIFIED ONLY BY HAND in gtkrc into separated sections"
+msgstr ""
+"Veszélyes, CSAK KÉZZEL LEHET MÓDOSÍTANI a gtkrc-ben elválasztott szakaszokra"
+
+#: ../schema/murrine.xml.in.in.h:10
+msgid "Default Button Color"
+msgstr "Alapértelmezett gomb szín"
+
+#: ../schema/murrine.xml.in.in.h:11
+msgid "Sets the Color of Default button 2px border"
+msgstr "Beállítja az alapértelmezett gomb 2 képpontos szegélyének színét"
+
+#: ../schema/murrine.xml.in.in.h:12
+msgid "Expander Style"
+msgstr "Kiterjesztő stílusa"
+
+#: ../schema/murrine.xml.in.in.h:13
+msgid "Focus Color"
+msgstr "Fókusz szín"
+
+#: ../schema/murrine.xml.in.in.h:14
+msgid "Sets the Color of Focus"
+msgstr "Beállítja a fókusz színét"
+
+#: ../schema/murrine.xml.in.in.h:15
+msgid "Focus Style"
+msgstr "Fókusz stílusa"
+
+#: ../schema/murrine.xml.in.in.h:16
+msgid "Glaze Style"
+msgstr "Zománc stílusa"
+
+#: ../schema/murrine.xml.in.in.h:17
+msgid "Glow Shade"
+msgstr "Ragyogás árnyék"
+
+#: ../schema/murrine.xml.in.in.h:18
+msgid "Enable and set the Glow Shade"
+msgstr "Engedélyezés és a ragyogás árnyékának beállítása"
+
+#: ../schema/murrine.xml.in.in.h:19
+msgid "Glow Style"
+msgstr "Ragyogás stílusa"
+
+#: ../schema/murrine.xml.in.in.h:20
+msgid "Handle Style"
+msgstr "Fogantyú stílusa"
+
+#: ../schema/murrine.xml.in.in.h:21
+msgid "Highlight Shade"
+msgstr "Kiemelés árnyék"
+
+#: ../schema/murrine.xml.in.in.h:22
+msgid "Increase/Decrease the highlight shade"
+msgstr "A kiemelés árnyék növelése/csökkentése"
+
+#: ../schema/murrine.xml.in.in.h:23
+msgid "Lightborder Shade"
+msgstr "Fényhatár árnyék"
+
+#: ../schema/murrine.xml.in.in.h:24
+msgid "Increase/Decrease the lightborder shade"
+msgstr "A fényhatár árnyék növelése/csökkentése"
+
+#: ../schema/murrine.xml.in.in.h:25
+msgid "Lightborder Style"
+msgstr "Fényhatár stílusa"
+
+#: ../schema/murrine.xml.in.in.h:26
+msgid "Listview header style"
+msgstr "Listanézet fejléc stílusa"
+
+#: ../schema/murrine.xml.in.in.h:27
+msgid "Listview separators"
+msgstr "Listanézet elválasztók"
+
+#: ../schema/murrine.xml.in.in.h:28
+msgid "MenubarItem Style"
+msgstr "Menüsávelem stílusa"
+
+#: ../schema/murrine.xml.in.in.h:29
+msgid "Menubar Style"
+msgstr "Menüsáv stílusa"
+
+#: ../schema/murrine.xml.in.in.h:30
+msgid "MenuItem Style"
+msgstr "Menüelem stílusa"
+
+#: ../schema/murrine.xml.in.in.h:31
+msgid "Menu Style"
+msgstr "Menü stílusa"
+
+#: ../schema/murrine.xml.in.in.h:32
+msgid "Prelight Shade"
+msgstr "Előfény árnyék"
+
+#: ../schema/murrine.xml.in.in.h:33
+msgid "Increase/Decrease the prelight shade"
+msgstr "Az előfény árnyék növelése/csökkentése"
+
+#: ../schema/murrine.xml.in.in.h:34
+msgid "Progressbar style"
+msgstr "Folyamatsáv stílusa"
+
+#: ../schema/murrine.xml.in.in.h:35
+msgid "Relief style of widget"
+msgstr "A felületi elem kiemelésének stílusa"
+
+#: ../schema/murrine.xml.in.in.h:36
+msgid "Enable/Disable RGBA support"
+msgstr "RGBA támogatás engedélyezése/tiltása"
+
+#: ../schema/murrine.xml.in.in.h:37
+msgid "Roundness"
+msgstr "Kerekítettség"
+
+#: ../schema/murrine.xml.in.in.h:38
+msgid "Additional scrollbar features"
+msgstr "További görgetősáv lehetőségek"
+
+#: ../schema/murrine.xml.in.in.h:39
+msgid "Separator style"
+msgstr "Elválasztó stílusa"
+
+#: ../schema/murrine.xml.in.in.h:40
+msgid "Slider style"
+msgstr "Csúszka stílusa"
+
+#: ../schema/murrine.xml.in.in.h:41
+msgid "Spinbutton Style"
+msgstr "Léptetőgomb stílusa"
+
+#: ../schema/murrine.xml.in.in.h:42
+msgid "Stepper style"
+msgstr "Léptető stílusa"
+
+#: ../schema/murrine.xml.in.in.h:43
+msgid "Text Style"
+msgstr "Szöveg stílusa"
+
+#: ../schema/murrine.xml.in.in.h:44
+msgid "Text Shade"
+msgstr "Szöveg árnyék"
+
+#: ../schema/murrine.xml.in.in.h:45
+msgid "Increase/Decrease the text shadow shade"
+msgstr "A szöveg árnyék növelése/csökkentése"
+
+#: ../schema/murrine.xml.in.in.h:46
+msgid "Toolbar style"
+msgstr "Eszköztár stílusa"
+
