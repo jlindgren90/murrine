@@ -42,6 +42,9 @@
 #define MENU_OPACITY 0.90
 #define TOOLTIP_OPACITY 0.90
 
+G_GNUC_INTERNAL gboolean murrine_object_is_a (const GObject *object,
+                                              const gchar   *type_name);
+
 /* From gtk-engines 20071109 */
 #define MRN_IS_WIDGET(object) ((object)  && murrine_object_is_a ((GObject*)(object), "GtkWidget"))
 #define MRN_IS_CONTAINER(object) ((object)  && murrine_object_is_a ((GObject*)(object), "GtkContainer"))
@@ -120,6 +123,7 @@ G_GNUC_INTERNAL GtkTextDirection murrine_get_direction (GtkWidget *widget);
 G_GNUC_INTERNAL GtkWidget *murrine_special_get_ancestor (GtkWidget *widget, GType widget_type);
 G_GNUC_INTERNAL GdkColor* murrine_get_parent_bgcolor (GtkWidget *widget);
 G_GNUC_INTERNAL GtkWidget* murrine_get_parent_window (GtkWidget *widget);
+G_GNUC_INTERNAL gboolean murrine_widget_is_ltr (GtkWidget *widget);
 G_GNUC_INTERNAL gboolean murrine_is_combo_box (GtkWidget *widget);
 G_GNUC_INTERNAL gboolean murrine_is_combo_box_entry (GtkWidget *widget);
 G_GNUC_INTERNAL GtkWidget* murrine_find_combo_box_widget(GtkWidget *widget);

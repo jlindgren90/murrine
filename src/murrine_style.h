@@ -100,5 +100,6 @@ struct _MurrineStyleClass
 };
 
 GType murrine_style_get_type (void);
+void murrine_style_register_types (GTypeModule *module);
 
 #endif /* MURRINE_STYLE_H */

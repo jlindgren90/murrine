@@ -152,5 +152,6 @@ struct _MurrineRcStyleClass
 };
 
 GType murrine_rc_style_get_type	(void);
+void murrine_rc_style_register_types (GTypeModule *module);
 
 #endif /* MURRINE_RC_STYLE_H */
