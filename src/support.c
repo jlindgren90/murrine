@@ -105,7 +105,7 @@ murrine_option_menu_get_props (GtkWidget      *widget,
 		*indicator_spacing = default_option_indicator_spacing;
 }
 
-GtkWidget* 
+GtkWidget*
 murrine_special_get_ancestor (GtkWidget *widget, GType widget_type)
 {
 	g_return_val_if_fail(GTK_IS_WIDGET(widget), NULL);

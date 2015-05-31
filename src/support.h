@@ -52,7 +52,7 @@
 #define MRN_IS_SEPARATOR(object) ((object)  && murrine_object_is_a ((GObject*)(object), "GtkSeparator"))
 #define MRN_IS_VSEPARATOR(object) ((object)  && murrine_object_is_a ((GObject*)(object), "GtkVSeparator"))
 #define MRN_IS_HSEPARATOR(object) ((object)  && murrine_object_is_a ((GObject*)(object), "GtkHSeparator"))
- 
+
 #define MRN_IS_HANDLE_BOX(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkHandleBox"))
 #define MRN_IS_HANDLE_BOX_ITEM(object) ((object) && MRN_IS_HANDLE_BOX(object->parent))
 #define MRN_IS_BONOBO_DOCK_ITEM(object) ((object) && murrine_object_is_a ((GObject*)(object), "BonoboDockItem"))
@@ -67,15 +67,15 @@
 #define MRN_IS_COMBO_BOX(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkComboBox"))
 #define MRN_IS_COMBO(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkCombo"))
 #define MRN_IS_OPTION_MENU(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkOptionMenu"))
- 
+
 #define MRN_IS_TOGGLE_BUTTON(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkToggleButton"))
 #define MRN_IS_CHECK_BUTTON(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkCheckButton"))
 #define MRN_IS_RADIO_BUTTON(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkRadioButton"))
 #define MRN_IS_SPIN_BUTTON(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkSpinButton"))
- 
+
 #define MRN_IS_STATUSBAR(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkStatusbar"))
 #define MRN_IS_PROGRESS_BAR(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkProgressBar"))
- 
+
 #define MRN_IS_MENU_SHELL(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkMenuShell"))
 #define MRN_IS_MENU(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkMenu"))
 #define MRN_IS_MENU_BAR(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkMenuBar"))
@@ -90,15 +90,15 @@
 #define MRN_IS_SCROLLBAR(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkScrollbar"))
 #define MRN_IS_VSCROLLBAR(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkVScrollbar"))
 #define MRN_IS_HSCROLLBAR(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkHScrollbar"))
- 
+
 #define MRN_IS_SCALE(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkScale"))
 #define MRN_IS_VSCALE(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkVScale"))
 #define MRN_IS_HSCALE(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkHScale"))
-  
+
 #define MRN_IS_PANED(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkPaned"))
 #define MRN_IS_VPANED(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkVPaned"))
 #define MRN_IS_HPANED(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkHPaned"))
- 
+
 #define MRN_IS_BOX(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkBox"))
 #define MRN_IS_VBOX(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkVBox"))
 #define MRN_IS_HBOX(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkHBox"))
@@ -108,9 +108,9 @@
 #define MRN_IS_ENTRY(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkEntry"))
 #define MRN_IS_BUTTON(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkButton"))
 #define MRN_IS_FIXED(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkFixed"))
- 
+
 #define TOGGLE_BUTTON(object) (MRN_IS_TOGGLE_BUTTON(object)?(GtkToggleButton *)object:NULL)
- 
+
 #define MRN_IS_NOTEBOOK(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkNotebook"))
 #define MRN_IS_CELL_RENDERER_TOGGLE(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkCellRendererToggle"))
 

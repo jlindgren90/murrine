@@ -110,7 +110,7 @@ surface_exponential_blur (cairo_surface_t* surface,
 	}
 
 	// inform cairo we altered the surfaces contents
-	cairo_surface_mark_dirty (surface);	
+	cairo_surface_mark_dirty (surface);
 }
 
 //
@@ -143,7 +143,7 @@ _expblur (guchar* pixels,
 	if (radius < 1)
 		return;
 
-	// calculate the alpha such that 90% of 
+	// calculate the alpha such that 90% of
 	// the kernel is within the radius.
 	// (Kernel extends to infinity)
 	alpha = (gint) ((1 << aprec) * (1.0f - expf (-2.3f / (radius + 1.f))));
@@ -200,7 +200,7 @@ _blurinner (guchar* pixel,
 	*(pixel + 1) = *zG >> zprec;
 	*(pixel + 2) = *zB >> zprec;
 	*(pixel + 3) = *zA >> zprec;
-} 
+}
 
 static inline void
 _blurrow (guchar* pixels,
@@ -265,7 +265,7 @@ _blurcol (guchar* pixels,
 	guchar* ptr;
 
 	ptr = pixels;
-	
+
 	ptr += x * channels;
 
 	zR = *((guchar*) ptr    ) << zprec;

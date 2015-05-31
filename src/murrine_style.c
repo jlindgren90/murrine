@@ -305,7 +305,7 @@ murrine_style_draw_flat_box (DRAW_ARGS)
 
 		STYLE_FUNCTION(draw_iconview) (cr, colors, &params, x, y, width, height);
 
-		cairo_destroy (cr);	
+		cairo_destroy (cr);
 	}
 	else
 	{
@@ -927,7 +927,7 @@ murrine_style_draw_box (DRAW_ARGS)
 		}
 
 		/* Basic hack to theme the task list when x/y thickness == 0 */
-		if (widget->parent && widget->parent->parent && 
+		if (widget->parent && widget->parent->parent &&
                     MRN_IS_PANEL_APPLET(widget->parent->parent))
 		{
 			if (params.xthickness == 0 && params.ythickness == 0)
@@ -935,7 +935,7 @@ murrine_style_draw_box (DRAW_ARGS)
 				x--; width+=1;
 				y-=2; height+=4;
 				params.roundness = 0;
-			}		
+			}
 		}
 
 		if (!MRN_IS_COMBO_BOX(widget->parent) ||
@@ -1318,7 +1318,7 @@ murrine_style_draw_box (DRAW_ARGS)
 	else if (DETAIL ("hscale") || DETAIL ("vscale"))
 	{
 		WidgetParameters params;
-		SliderParameters slider; 
+		SliderParameters slider;
 		ButtonParameters button;
 
 		murrine_set_widget_parameters (widget, style, state_type, &params);
@@ -1341,7 +1341,7 @@ murrine_style_draw_box (DRAW_ARGS)
 		/* Use reliefstyle to remove inset on disabled slider button */
 		if (params.disabled)
 			params.reliefstyle = 0;
-		
+
 		if (murrine_style->sliderstyle < 2)
 			STYLE_FUNCTION(draw_button) (cr, &murrine_style->colors, &params, &button, x, y, width, height, horizontal);
 		else
@@ -1946,7 +1946,7 @@ murrine_style_draw_arrow (GtkStyle     *style,
 		else if (DETAIL ("hscrollbar") || DETAIL ("vscrollbar"))
 		{
 			int steppersize;
-			gtk_widget_style_get (widget, "stepper-size", &steppersize, NULL);	
+			gtk_widget_style_get (widget, "stepper-size", &steppersize, NULL);
 
 			switch (arrow.direction)
 			{
@@ -1971,9 +1971,9 @@ murrine_style_draw_arrow (GtkStyle     *style,
 					height = 5; width = 4;
 					break;
 			}
-			
+
 			if (arrow.style == 2)
-			{	
+			{
 				switch (arrow.direction)
 				{
 					case MRN_DIRECTION_UP:
@@ -2058,14 +2058,14 @@ murrine_style_draw_layout (GtkStyle     *style,
 	if (area)
 		gdk_gc_set_clip_rectangle (gc, area);
 
-	if (widget && (state_type == GTK_STATE_INSENSITIVE || 
+	if (widget && (state_type == GTK_STATE_INSENSITIVE ||
 	    (MURRINE_STYLE (style)->textstyle != 0 &&
 	     state_type != GTK_STATE_PRELIGHT &&
 	     !(DETAIL ("cellrenderertext") && state_type == GTK_STATE_NORMAL))))
 	{
 		MurrineStyle *murrine_style = MURRINE_STYLE (style);
 		MurrineColors *colors = &murrine_style->colors;
-	
+
 		WidgetParameters params;
 
 		murrine_set_widget_parameters (widget, style, state_type, &params);
@@ -2157,7 +2157,7 @@ murrine_style_draw_layout (GtkStyle     *style,
 
 		if (DETAIL ("cellrenderertext"))
 		{
-			cairo_t *cr; 
+			cairo_t *cr;
 			cr = murrine_begin_paint (window, area);
 			cairo_translate (cr, x+xos, y+yos);
 			murrine_set_color_rgba (cr, &temp, 0.5);
@@ -2166,9 +2166,9 @@ murrine_style_draw_layout (GtkStyle     *style,
 		}
 		else
 		{
-			cairo_t *cr; 
-			cr = murrine_begin_paint (window, area); 
-			cairo_translate (cr, x+xos, y+yos); 
+			cairo_t *cr;
+			cr = murrine_begin_paint (window, area);
+			cairo_translate (cr, x+xos, y+yos);
 			pango_cairo_layout_path (cr, layout);
 			murrine_set_color_rgba (cr, &temp, 0.5);
 			cairo_stroke (cr);

@@ -75,7 +75,7 @@ enum
 	TOKEN_TEXT_SHADE,
 	TOKEN_TOOLBARSTYLE,
 	TOKEN_TROUGH_BORDER_SHADES,
-	TOKEN_TROUGH_SHADES,	
+	TOKEN_TROUGH_SHADES,
 
 	TOKEN_TRUE,
 	TOKEN_FALSE,
@@ -103,7 +103,7 @@ theme_symbols[] =
 	{ "border_colors",       TOKEN_BORDER_COLORS },
 	{ "border_shades",       TOKEN_BORDER_SHADES },
 	{ "colorize_scrollbar",  TOKEN_COLORIZE_SCROLLBAR },
-	{ "cellstyle",           TOKEN_CELLSTYLE },	
+	{ "cellstyle",           TOKEN_CELLSTYLE },
 	{ "comboboxstyle",       TOKEN_COMBOBOXSTYLE },
 	{ "contrast",            TOKEN_CONTRAST },
 	{ "default_button_color", TOKEN_DEFAULT_BUTTON_COLOR },

@@ -174,7 +174,7 @@ murrine_rgba_draw_button (cairo_t *cr,
 	if (widget->is_default)
 	{
 		murrine_shade (&border, murrine_get_contrast(0.8, widget->contrast), &border);
-		
+
 		if (button->has_default_button_color)
 		{
 			mrn_gradient_new.has_border_colors = FALSE;
@@ -509,7 +509,7 @@ murrine_rgba_draw_slider (cairo_t *cr,
 		murrine_exchange_axis (cr, &x, &y, &width, &height);
 
 	cairo_save (cr);
-	
+
 	cairo_translate (cr, x+0.5, y+0.5);
 
 	if (!widget->active && !widget->disabled && widget->reliefstyle > 1 && os > 0)
@@ -544,7 +544,7 @@ murrine_rgba_draw_slider (cairo_t *cr,
 	                    widget->roundness, widget->corners, TRUE);
 
 	cairo_restore (cr);
-	
+
 	murrine_draw_slider_path (cr, os, os+1, width-(os*2), height-(os*2)-1, widget->roundness);
 
 	murrine_draw_border_from_path (cr, &border,
@@ -552,7 +552,7 @@ murrine_rgba_draw_slider (cairo_t *cr,
 	                     mrn_gradient_new, 1.0);
 
 	cairo_restore (cr);
-	 
+
 	if (!slider->horizontal)
 		murrine_exchange_axis (cr, &x, &y, &width, &height);
 }
@@ -594,7 +594,7 @@ murrine_rgba_draw_spinbutton (cairo_t *cr,
 			}
 			else
 				murrine_shade (&colors->shade[8], 0.95, &line);
-			
+
 			/* adjust line accordingly to buttons */
 			if (widget->mrn_gradient.has_border_colors)
 				murrine_mix_color (&mrn_gradient_new.border_colors[0], &mrn_gradient_new.border_colors[1], 0.5, &line);
@@ -607,12 +607,12 @@ murrine_rgba_draw_spinbutton (cairo_t *cr,
 					murrine_mix_color (&line, &colors->bg[widget->state_type], 0.25, &line);
 			}
 			murrine_shade (&line, (mrn_gradient_new.border_shades[0]+mrn_gradient_new.border_shades[1])/2.0, &line);
-			
-			/* adjust highlight accordingly to buttons */	
+
+			/* adjust highlight accordingly to buttons */
 			if (widget->mrn_gradient.has_gradient_colors)
 				murrine_shade (&mrn_gradient_new.gradient_colors[2], mrn_gradient_new.gradient_shades[2], &highlight);
 			murrine_shade (&highlight, lightborder_shade_new*mrn_gradient_new.gradient_shades[2], &highlight);
-		
+
 			/* this will align the path to the cairo grid */
 			if (height % 2 != 0)
 				height++;
@@ -651,8 +651,8 @@ murrine_rgba_draw_progressbar_trough (cairo_t *cr,
 	/* Draw border */
 	murrine_draw_trough_border (cr, &border, x+0.5, y+0.5, width-1, height-1, roundness, widget->corners, widget->mrn_gradient, 0.8, horizontal);
 
-	if (widget->mrn_gradient.gradients && 
-	    widget->mrn_gradient.trough_shades[0] == 1.0 && 
+	if (widget->mrn_gradient.gradients &&
+	    widget->mrn_gradient.trough_shades[0] == 1.0 &&
 	    widget->mrn_gradient.trough_shades[1] == 1.0)
 	{
 		cairo_pattern_t  *pat;
@@ -1776,7 +1776,7 @@ murrine_rgba_draw_handle (cairo_t *cr,
 			break;
 		}
 		case 1:
-		{	
+		{
 			for (i=0; i<num_bars; i++)
 			{
 				cairo_move_to (cr, 0, bar_y);
@@ -2193,7 +2193,7 @@ murrine_rgba_draw_menu_frame (cairo_t *cr,
 			const MurrineRGB *border = &colors->shade[2];
 			MurrineRGB fill;
 			raico_blur_t* blur = NULL;
-			cairo_t *cr_surface; 
+			cairo_t *cr_surface;
 			cairo_surface_t *surface;
 			cairo_pattern_t *pat;
 			int bradius = 30;
@@ -2207,7 +2207,7 @@ murrine_rgba_draw_menu_frame (cairo_t *cr,
 
 			/* draw glow */
 			surface = cairo_image_surface_create (CAIRO_FORMAT_ARGB32, width, bheight);
-			cr_surface = cairo_create (surface); 
+			cr_surface = cairo_create (surface);
 			blur = raico_blur_create (RAICO_BLUR_QUALITY_LOW);
 			raico_blur_set_radius (blur, bradius);
 			cairo_set_line_width (cr_surface, 1.0);
@@ -2222,9 +2222,9 @@ murrine_rgba_draw_menu_frame (cairo_t *cr,
 			cairo_set_source (cr_surface, pat);
 			cairo_pattern_destroy (pat);
 			cairo_fill (cr_surface);
-			cairo_set_source_surface (cr, surface, 0, 0); 
+			cairo_set_source_surface (cr, surface, 0, 0);
 			cairo_paint (cr);
-			cairo_surface_destroy (surface); 
+			cairo_surface_destroy (surface);
 			cairo_destroy (cr_surface);
 			break;
 		}
@@ -2233,7 +2233,7 @@ murrine_rgba_draw_menu_frame (cairo_t *cr,
 			MurrineRGB border;
 			MurrineRGB fill;
 			raico_blur_t* blur = NULL;
-			cairo_t *cr_surface; 
+			cairo_t *cr_surface;
 			cairo_surface_t *surface;
 			cairo_pattern_t *pat;
 			int bradius = 30;
@@ -2248,7 +2248,7 @@ murrine_rgba_draw_menu_frame (cairo_t *cr,
 
 			/* draw glow */
 			surface = cairo_image_surface_create (CAIRO_FORMAT_ARGB32, width, bheight);
-			cr_surface = cairo_create (surface); 
+			cr_surface = cairo_create (surface);
 			blur = raico_blur_create (RAICO_BLUR_QUALITY_LOW);
 			raico_blur_set_radius (blur, bradius);
 			cairo_set_line_width (cr_surface, 1.0);
@@ -2263,9 +2263,9 @@ murrine_rgba_draw_menu_frame (cairo_t *cr,
 			cairo_set_source (cr_surface, pat);
 			cairo_pattern_destroy (pat);
 			cairo_fill (cr_surface);
-			cairo_set_source_surface (cr, surface, 0, 0); 
+			cairo_set_source_surface (cr, surface, 0, 0);
 			cairo_paint (cr);
-			cairo_surface_destroy (surface); 
+			cairo_surface_destroy (surface);
 			cairo_destroy (cr_surface);
 			break;
 		}

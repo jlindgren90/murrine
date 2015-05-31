@@ -122,13 +122,13 @@ surface_stack_blur (cairo_surface_t* surface,
 			sir[1] = pixels[yi + MIN (wm, MAX (i, 0)) + 1];
 			sir[2] = pixels[yi + MIN (wm, MAX (i, 0)) + 2];
 			sir[3] = pixels[yi + MIN (wm, MAX (i, 0)) + 3];
-            
+
 			rbs = r1 - abs (i);
 			rsum += sir[0] * rbs;
 			gsum += sir[1] * rbs;
 			bsum += sir[2] * rbs;
 			asum += sir[3] * rbs;
-            
+
 			if (i > 0)
 			{
 				rinsum += sir[0];
@@ -210,7 +210,7 @@ surface_stack_blur (cairo_surface_t* surface,
 		rinsum = ginsum = binsum = ainsum = routsum = goutsum = boutsum = aoutsum = rsum = gsum = bsum = asum = 0;
 
 		yp =- radius * w;
-        
+
 		for (i =- radius; i <= radius; ++i)
 		{
 			yi = MAX (0, yp) + x;
@@ -336,6 +336,6 @@ surface_stack_blur (cairo_surface_t* surface,
 	}
 
 	// inform cairo we altered the surfaces contents
-	cairo_surface_mark_dirty (surface);	
+	cairo_surface_mark_dirty (surface);
 }
 

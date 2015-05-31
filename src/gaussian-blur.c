@@ -162,6 +162,6 @@ surface_gaussian_blur (cairo_surface_t* surface,
 	}
 
 	// inform cairo we altered the surfaces contents
-	cairo_surface_mark_dirty (surface);	
+	cairo_surface_mark_dirty (surface);
 }
 

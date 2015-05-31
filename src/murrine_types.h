@@ -244,7 +244,7 @@ typedef struct
 
 typedef struct
 {
-	boolean in_treeview;	
+	boolean in_treeview;
 	int arrowstyle;
 	int size;
 	int style;

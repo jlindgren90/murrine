@@ -229,7 +229,7 @@ murrine_invert_text (const MurrineRGB *a, MurrineRGB *b)
 
 	murrine_rgb_to_hls (&red, &green, &blue);
 
-	if (green < 0.8) 
+	if (green < 0.8)
 		green = 1.0;
 	else
 		green = 0.0;
@@ -677,13 +677,13 @@ murrine_draw_blur_glow (cairo_t *cr,
                         int roundness, uint8 corners)
 {
 	raico_blur_t* blur = NULL;
-	cairo_t *cr_surface; 
+	cairo_t *cr_surface;
 	cairo_surface_t *surface;
 	double bradius = 6;
 
 	/* draw glow */
 	surface = cairo_image_surface_create (CAIRO_FORMAT_ARGB32, width+bradius*2, height+bradius*2);
-	cr_surface = cairo_create (surface); 
+	cr_surface = cairo_create (surface);
 	blur = raico_blur_create (RAICO_BLUR_QUALITY_LOW);
 	raico_blur_set_radius (blur, bradius);
 	cairo_set_line_width (cr_surface, 4.0);
@@ -691,10 +691,10 @@ murrine_draw_blur_glow (cairo_t *cr,
 	murrine_set_color_rgb (cr_surface, glow);
 	cairo_stroke (cr_surface);
 	raico_blur_apply (blur, surface);
-	cairo_set_source_surface (cr, surface, -bradius+2, -bradius+2); 
+	cairo_set_source_surface (cr, surface, -bradius+2, -bradius+2);
 	cairo_paint (cr);
-	cairo_surface_destroy (surface); 
-	cairo_destroy (cr_surface); 
+	cairo_surface_destroy (surface);
+	cairo_destroy (cr_surface);
 }
 
 static void
