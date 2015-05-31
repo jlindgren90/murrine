@@ -1704,7 +1704,6 @@ murrine_style_draw_tab (DRAW_ARGS)
 	WidgetParameters params;
 	ArrowParameters  arrow;
 
-	arrow.type      = MRN_ARROW_COMBO;
 	arrow.direction = MRN_DIRECTION_DOWN;
 	arrow.style     = murrine_style->arrowstyle;
 
@@ -1920,7 +1919,6 @@ murrine_style_draw_arrow (GtkStyle     *style,
 		return;
 	}
 
-	arrow.type = MRN_ARROW_NORMAL;
 	arrow.direction = (MurrineDirection)arrow_type;
 	arrow.style = murrine_style->arrowstyle;
 
@@ -2022,15 +2020,6 @@ murrine_style_draw_arrow (GtkStyle     *style,
 			y = y + height / 2 - 3;
 			height = 7; width = 6;
 		}
-	}
-
-	if (murrine_is_combo_box (widget) && !murrine_is_combo_box_entry (widget))
-	{
-		arrow.type = MRN_ARROW_COMBO;
-
-		x = x + width / 2 - 1;
-		y = y + height / 2 - 2;
-		height = 5; width = 5;
 	}
 
 	STYLE_FUNCTION(draw_arrow) (cr, colors, &params, &arrow, x, y, width, height);

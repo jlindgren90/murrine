@@ -111,12 +111,6 @@ typedef enum
 
 typedef enum
 {
-	MRN_ARROW_NORMAL,
-	MRN_ARROW_COMBO
-} MurrineArrowType;
-
-typedef enum
-{
 	MRN_FOCUS_BUTTON,
 	MRN_FOCUS_BUTTON_DEFAULT,
 	MRN_FOCUS_BUTTON_FLAT,
@@ -199,7 +193,6 @@ typedef struct
 
 typedef struct
 {
-	MurrineArrowType type;
 	MurrineDirection direction;
 	int style;
 } ArrowParameters;
