@@ -2158,6 +2158,7 @@ murrine_style_draw_layout (GtkStyle     *style,
 			cairo_t *cr;
 			cr = murrine_begin_paint (window, area);
 			cairo_translate (cr, x+xos, y+yos);
+			pango_cairo_update_layout (cr, layout);
 			pango_cairo_layout_path (cr, layout);
 			murrine_set_color_rgba (cr, &temp, 0.5);
 			cairo_stroke (cr);
