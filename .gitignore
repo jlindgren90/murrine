@@ -1,5 +1,6 @@
 *.la
 *.lo
+*.pkg.*
 .deps/
 .libs/
 Makefile
@@ -19,6 +20,7 @@ libtool
 ltmain.sh
 missing
 murrine.pc
+pkg/
 po/.intltool-merge-cache
 po/POTFILES
 po/stamp-it
